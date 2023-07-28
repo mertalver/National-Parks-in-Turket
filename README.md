@@ -1,4 +1,9 @@
 # National Parks in Turkey
+## Objective
+The National Parks in Turkey project aims to create a data-driven application that showcases a comprehensive list of National Parks in Turkey. <br>
+The project uses web scraping techniques to gather information from Wikipedia. <br>
+The collected data is then utilized to create instances of the NationalPark class, which stores essential details about each park, including its name, location, declaration year, and area. <br>
+The National Parks and their informations should be stored different data structures (these data structures will be metioned below).
 
 ## Listing National Parks in Turkey with using Generic List
 The names of the 48 National Parks in Turkey, the provinces they are located in, the dates they were declared as National Parks, and their surface areas (in hectares) are provided at the following links:
@@ -17,9 +22,9 @@ You can use a Generic List to store the names of the provinces where a National 
 **c)** Write a method to print all the information in each list of the array. Also, calculate and print the total area of each list.
 
 ## STACK and QUEUE
-**a)** Update the code to create a stack of National Parks (composed of objects of the National Park class) or implement it from scratch. Add all National Parksto the stack (you can retrieve the data from files or from the lists you created, it's up to you). Remove all elements from the stack and print the National Park information to the screen.
+**a)** Update the code to create a stack of National Parks (composed of objects of the National Park class). Add all National Parks to the stack (you can retrieve the data from files or from the lists you created, it's up to you). Remove all elements from the stack and print the National Park information to the screen.
 
-**b)** Examine the queue program in LISTING 4.4 in Chapter 4 of the textbook (pages 138-140). Read the relevant sections. Repeat the process in 2a, but this time use a Queue data structure for the National Parks.
+**b)** This time use a Queue data structure for the National Parks.
 
 ## PRIORITY QUEUE
-Design and implement a Priority Queue (class) in C# or Java that allows O(1) time complexity for insertion (although deletion of the most prioritized element is slower) with elements sorted in ascending order. The priority queue should be implemented using a List data structure to store elements of the National Park class. Write all necessary methods for the PriorityQueue class (insert, delete, isEmpty, constructor) and their implementations. Test the class with the data from Question 1, sorting the National Parks by area in ascending order and printing them out one by one (from smallest to largest).
+Design and implement a Priority Queue (class) in Java that allows O(1) time complexity for insertion (although deletion of the most prioritized element is slower) with elements sorted in ascending order. The priority queue should be implemented using a List data structure to store elements of the National Park class. Write all necessary methods for the PriorityQueue class (insert, delete, isEmpty, constructor) and their implementations. Test the class with the data with informations of National Park, sorting the National Parks by area in ascending order and printing them out one by one (from smallest to largest).
